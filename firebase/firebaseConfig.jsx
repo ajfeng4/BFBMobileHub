@@ -11,13 +11,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    //apiKey: [YOUR FIREBASE API KEY],
-    //authDomain: [YOUR AUTH DOMAIN],
-    //projectId: [YOUR PROJECT ID],
-    //storageBucket: [YOUR STORAGE BUCKET],
-    //messagingSenderId: [YOUR MESSAGING SENDER ID],
-    //appId: [YOUR APP ID]
+    apiKey: "AIzaSyDf1u33yCx47cgoxFo-1NQaYQ6DC18ddCw",
+    authDomain: "bfbmobilehub.firebaseapp.com",
+    projectId: "bfbmobilehub",
+    storageBucket: "bfbmobilehub.firebasestorage.app",
+    messagingSenderId: "64180973500",
+    appId: "1:64180973500:web:69fa32f197acc524a945b9"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
